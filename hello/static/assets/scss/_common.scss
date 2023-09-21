@@ -1,10 +1,10 @@
-/* 
+/*
  * 1. Google Font
  */
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:300,400,700);
 
-/* 
+/*
  * 2.0 Global Style
  */
 
@@ -87,11 +87,11 @@ ul {
 	}
 }
 
-.btn.active.focus, 
-.btn.active:focus, 
-.btn.focus, 
-.btn:active.focus, 
-.btn:active:focus, 
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
 .btn:focus {
 	outline: none;
 }
@@ -142,11 +142,11 @@ ul {
 	text-align: center;
 }
 
-/* 
+/*
  * 3.0 Helper Class
  */
 
-/* 
+/*
  * 3.1 Helper Class: font-weight
  */
 
@@ -162,7 +162,7 @@ ul {
 	font-weight: 700;
 }
 
-/* 
+/*
  * 3.2 Helper Class: margin
  */
 
@@ -178,7 +178,7 @@ ul {
 	margin-top: 20px;
 }
 
-/* 
+/*
  * 3.3 Helper Class: list
  */
 
@@ -191,7 +191,7 @@ ul {
 	}
 }
 
-/* 
+/*
  * 3.4 Helper Class: button
  */
 
@@ -215,7 +215,7 @@ ul {
 	}
 }
 
-/* 
+/*
  * 3.5 Helper Class: background
  */
 
@@ -233,7 +233,7 @@ ul {
 
 .bg-image-1 {
 	@extend .bg-image;
-	background: url(../images/backgrounds/bg-1.jpg) no-repeat center center / cover;
+	background: url('https://api.time.com/wp-content/uploads/2022/10/GettyImages-1243795097.jpg') no-repeat center center / cover;
 
 	&::before {
 		background-color: rgba(0, 0, 0, 0.7);
@@ -242,7 +242,7 @@ ul {
 
 .bg-image-2 {
 	@extend .bg-image;
-	background: url(../images/backgrounds/bg-2.jpg) no-repeat center bottom / cover;
+	background: url('https://api.time.com/wp-content/uploads/2022/10/GettyImages-1243795097.jpg') no-repeat center bottom / cover;
 
 	&::before {
 		background-color: rgba(0, 0, 0, 0.7);
