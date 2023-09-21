@@ -176,6 +176,8 @@ STATICFILES_DIRS = (
         os.path.join(BASE_DIR, 'hello/static'),
 )
 
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
+
 STORAGES = {
     # Enable WhiteNoise's GZip and Brotli compression of static assets:
     # https://whitenoise.readthedocs.io/en/latest/django.html#add-compression-and-caching-support
