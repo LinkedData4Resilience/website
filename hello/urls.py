@@ -19,4 +19,5 @@ urlpatterns = [
     path('data/CH/April2023/event/<eventid>', views.CHevent, name='CHevent'),
 
     path("publication/", views.publication, name="publication"),
+    path("use/", views.use, name="use")
 ]
