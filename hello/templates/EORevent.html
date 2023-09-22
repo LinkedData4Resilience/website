@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+
+<section id="about" class="section about">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+
+              <h3 class="section-title">Eyes on Russia events</h3>
+
+              <p>Event </p>
+              <p>We used linked data is .........</p>
+
+              <figure>
+                  <img alt="" class="img-responsive" src="{% static 'assets/images/about-us.jpg' %}">
+              </figure>
+
+          </div><!-- /.col-sm-6 -->
+
+          <div class="col-sm-6">
+          This page contains the (refined & enriched) information about event {{eventid}} in the Eyes on Russia dataset.
+
+              </ul>
+
+
+
+            </div><!-- /.col-sm-6 -->
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</section>
+
+{% endblock %}
