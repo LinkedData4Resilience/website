@@ -36,15 +36,16 @@
 
                 <h3 class="section-title multiple-title">What is in your demo?</h3>
 
-                <p>We created ...enriching, refining, linking, visualising, and publishing resources.</p>
+                <p>Our analysis uncovered significant data format variations in reported events, largely due to the lack of standardized vocabularies and ontologies. To address this, we applied popular ontologies like Schema.org, Dublin Core, Simple Event Ontology, and GeoNames for consistent geo-information representation. Each event was assigned a URI, categorized as 'Event,' and linked with a date province, city, and postal code in triples format.</p>
 
                 <ul class="list-arrow-right">
 
-                    <li>Integreated ...</li> <p>In addressing Identical events, we rely on the Unique Name Assumption to identify and merge potentially identical event pairs (S) and those in close proximity but not identical (T) using our designed Algorithm. Varying proximity criteria for different event types, we consider a 2km radius for 'area' events and filter out non-damage-related events. This process identified 206 event pairs, each associated with a new event URI representing their integration. We introduce a hasPrimarySource relation for the event with richer information. </p>
-                    <li>Multilingual</li> <p>We enriched the integrated dataset with multilingual labels, including French, Ukrainian, Dutch, and German. This results in a multilingual dataset for multi-national aid to ukrainian organisations. </p>
-                    <li>Converted </li> <p>Our analysis uncovered significant data format variations in reported events, largely due to the lack of standardized vocabularies and ontologies. To address this, we applied popular ontologies like Schema.org, Dublin Core, Simple Event Ontology, and GeoNames for consistent geo-information representation. Each event was assigned a URI, categorized as 'Event,' and linked with a date province, city, and postal code in triples format. Some specific data was added to the comment section for future study.</p>
-                      <li>Enriched </li> <p>It was observed that some information is not explicitly provided but can be inferred. For example, the postal code can be retrieved by calling GeoNames' APIs. Additionally, not all data such as city and province was accurately represented, however, utilizing coordinates enabled the retrieval of related GeoNames information, which was then linked to corresponding events.  Difficulty due to spelling errors and multilingual cases were manually resolved. </p>
-                    <li>visualising ... </li> <p>fdsafdsa</p>
+                    <li>Converted </li> <p>Using linked data we were able to transform war events collected for EyesOnRussia and Civilian Harm into RDF triples enabling the data to be linked with semantic meanings.</p>
+                    <li>Enriched </li> <p>We inferred missing data and enriched the dataset with additional information. For example, the postal code that is retrieved by calling GeoNames' APIs. Also, missing cities and provinces were retrieved utilizing coordinates. Difficulties due to spelling errors and multilingual cases were manually resolved. </p>
+                    <li>Multilingual</li> <p>Multilinguality was improved in the integrated dataset with the addition of multilingual labels, including French, Ukrainian, Dutch, and German. This results in a multilingual dataset for multi-national aid to Ukrainian organizations. </p>
+                    <li>Integreated ...</li> <p>Using our designed Algorithm. Varying proximity criteria for different event types, we consider a 2km radius for 'area' events and filter out non-damage-related events. This process identified 206 event pairs that need to be merged, each associated with a new event URI representing their integration. We introduce a hasPrimarySource relation for the event with richer information. </p>
+                   
+                    <li>Visualizing... </li> <p>Using SPARQL we were able to showcase the benefits of our integrated dataset, By executing different queries resulted in socially useful outcomes regarding the war records in Ukraine</p>
                     <li>Publishing ... </li> <p>fdsafdsa</p>
                     <li>Queries ... </li> <p>fdsafdsa</p>
 
