@@ -36,11 +36,11 @@
 
                 <h3 class="section-title multiple-title">What is in your demo?</h3>
 
-                <p>Our analysis uncovered significant data format variations in reported events, largely due to the lack of standardized vocabularies and ontologies. To address this, we applied popular ontologies like Schema.org, Dublin Core, Simple Event Ontology, and GeoNames for consistent geo-information representation. Each event was assigned a URI, categorized as 'Event,' and linked with a date province, city, and postal code in triples format.</p>
+                <p>Our analysis uncovered significant data format variations in reported events, largely due to the lack of standardized vocabularies and ontologies. To address this, we applied popular ontologies like Schema.org, Dublin Core, Simple Event Ontology, and GeoNames for consistent geo-information representation.</p>
 
                 <ul class="list-arrow-right">
 
-                    <li>Converted </li> <p>Using linked data we were able to transform war events collected for EyesOnRussia and Civilian Harm into RDF triples enabling the data to be linked with semantic meanings.</p>
+                    <li>Converted </li> <p>Using linked data we were able to transform war events collected for EyesOnRussia and Civilian Harm into RDF triples enabling the data to be linked with semantic meanings. Each event was assigned a URI, categorized as 'Event,' and linked with a date province, city, and postal code in triples format</p>
                     <li>Enriched </li> <p>We inferred missing data and enriched the dataset with additional information. For example, the postal code that is retrieved by calling GeoNames' APIs. Also, missing cities and provinces were retrieved utilizing coordinates. Difficulties due to spelling errors and multilingual cases were manually resolved. </p>
                     <li>Multilingual</li> <p>Multilinguality was improved in the integrated dataset with the addition of multilingual labels, including French, Ukrainian, Dutch, and German. This results in a multilingual dataset for multi-national aid to Ukrainian organizations. </p>
                     <li>Integreated ...</li> <p>Using our designed Algorithm. Varying proximity criteria for different event types, we consider a 2km radius for 'area' events and filter out non-damage-related events. This process identified 206 event pairs that need to be merged, each associated with a new event URI representing their integration. We introduce a hasPrimarySource relation for the event with richer information. </p>
