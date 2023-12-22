@@ -11,7 +11,7 @@
 
         <p>Enriching, refining, integrating, linking, visualising, and publishing resources</p>
 
-        <a class="btn btn-white" data-scroll href="????">Watch video demostration</a>
+        <a class="btn btn-white" href="https://www.youtube.com/watch?v=E_fr1KzfsVs&vq=hd1080">Watch video demostration</a>
 
     </div>
 </header>
@@ -61,7 +61,7 @@
             <div class="col-sm-3">
 
                 <i class="ion-ios-calendar"></i>
-                <h3>from Feb 2022<br>to April 2023</h3>
+                <h3>From February 2022<br>to December 2023</h3>
 
             </div>
             <div class="col-sm-3">
@@ -73,7 +73,7 @@
             <div class="col-sm-3">
 
                 <i class="ion-ios-analytics"></i>
-                <h3>10<br>Use cases</h3>
+                <h3>5<br>Use cases</h3>
 
             </div>
             <div class="col-sm-3">
@@ -187,7 +187,7 @@
       <div class="speaker">
 
           <figure>
-              <img alt="" class="img-responsive center-block" width="300"  src="https://gravatar.com/avatar/ekultorp">
+              <img alt="" class="img-responsive center-block" width="300"  src="{% static 'assets/images/speakers/speaker-7.jpeg' %}">
           </figure>
 
           <h4>Eirik Kultorp</h4>
@@ -195,10 +195,11 @@
           <p>Linked Data Engineer</p>
 
           <ul class="social-block">
-              <li><a href=""><i class="ion-social-twitter"></i></a></li>
+              <!-- <li><a href=""><i class="ion-social-twitter"></i></a></li>
               <li><a href=""><i class="ion-social-facebook"></i></a></li>
               <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
-              <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+              <li><a href=""><i class="ion-social-googleplus"></i></a></li> -->
+              <li><a href="https://www.linkedin.com/in/eirik-kultorp-aa0225256"><i class="ion-social-linkedin-outline"></i></a></li>
           </ul>
       </div>
   </div>
@@ -239,6 +240,81 @@
 
 
 
+
+
+
+
+<section id="photos" class="section photos">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="section-title">Demo</h3>
+            </div>
+        </div>
+        <div class="row">
+<center>
+          <iframe width="960" height="615" src="https://www.youtube.com/embed/E_fr1KzfsVs?si=P1yRhGrzCbGyjbGF&vq=hd1080" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </center>
+
+    </div>
+    </div>
+</section>
+
+      <section id="photos" class="section photos">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12">
+                      <h3 class="section-title"><a href="/use">Use Cases</a></h3>
+                  </div>
+              </div>
+
+
+See the <a href="/use"><b><u>Use Cases</u></b></a> page for details. The images below are plots extracted from our papers, where description is provided. </br></br>
+
+            <div class="col-md-12">
+                <ul class="grid">
+
+
+
+                    <li class="grid-item grid-item-sm-6">
+                        <img alt="" class="img-responsive center-block" src="{% static 'assets/images/photos/kharkiv-heat.png' %}">
+                    </li>
+
+                    <li class="grid-item grid-item-sm-3">
+                        <img alt="" class="img-responsive center-block" vertical-align="top"  src="{% static 'assets/images/photos/schools.png' %}">
+                    </li>
+
+                    <li class="grid-item grid-item-sm-3">
+                        <img alt="" class="img-responsive center-block" vertical-align="top" src="{% static 'assets/images/photos/Kherson2.png' %}">
+                    </li>
+
+                    <li class="grid-item grid-item-sm-3">
+                        <img alt="" class="img-responsive center-block" src="{% static 'assets/images/photos/kharkiv-attacked.png' %}">
+                    </li>
+
+                    <li class="grid-item grid-item-sm-3">
+                        <img alt="" class="img-responsive center-block" src="{% static 'assets/images/photos/Kharkiv-shelters-map.png' %}">
+                    </li>
+
+
+
+
+
+
+
+
+
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
 <section id="faq" class="section faq">
     <div class="container">
         <div class="row">
@@ -259,8 +335,9 @@
 
                         <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                             <div class="panel-body">
-                                <h3>Hello</h3>
-                                <p>Lorem Ipsum</p>
+                                <!-- <h3>Two datasets are integreated</h3> -->
+                                <p>There are two datasets integrated: <a href="https://eyesonrussia.org/"><u>Eyes on Russia</u></a> and <a href="https://ukraine.bellingcat.com/"><u>Civilian Harm</u></a>. These
+                                datasets were selected for this project because they are similar in their format and type. Additionally, in one of our use cases, we used the <a href="https://visitukraine.today/blog/101/bomb-shelters-shelters-and-defense-structures-in-the-regions-of-ukraine"><u>dataset about the shelters in Kharkiv</u></a>.</p>
                             </div>
                         </div>
                     </div>
@@ -273,7 +350,7 @@
                         </div>
 
                         <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                            <div class="panel-body">Hello</div>
+                            <div class="panel-body">We used the Simple Event Ontology, schema.org, Dublin Core, and GeoNames.</div>
                         </div>
                     </div>
 
@@ -285,19 +362,19 @@
                         </div>
 
                         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                            <div class="panel-body">Hello</div>
+                            <div class="panel-body">We link every event with their corresponding GoeNames coordinates. Merged events takes the location of the one that has longer description. </div>
                         </div>
                     </div>
 
                     <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="headingFour">
                             <h4 class="panel-title">
-                                <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour"> Where can I find the usecases ?</a>
+                                <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour"> Where can I find the usecases?</a>
                             </h4>
                         </div>
 
                         <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                            <div class="panel-body">Hello</div>
+                            <div class="panel-body">See the <a href="/use"><b><u>Use Cases</u></b></a> page for details.</div>
                         </div>
                     </div>
 
@@ -309,7 +386,7 @@
                         </div>
 
                         <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-                            <div class="panel-body">Hello</div>
+                          <div class="panel-body">Please contact Shuai Wang at <a href="mailto:shuai.wang@vu.nl"><u>shuai.wang@vu.nl</u></a> and Manar Attar at <a href="mailto:manarattar77@gmail.com"><u>manarattar77@gmail.com</u></a></div>
                         </div>
                     </div>
                 </div>
@@ -317,57 +394,6 @@
         </div>
 </section>
 
-<section id="photos" class="section photos">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h3 class="section-title">Use Cases</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <ul class="grid">
-
-                    <li class="grid-item grid-item-sm-6">
-                        <img alt="" class="img-responsive center-block" src="{% static 'assets/images/photos/photos-1.jpg' %}">
-                    </li>
-
-                    <li class="grid-item grid-item-sm-3">
-                        <img alt="" class="img-responsive center-block" src="{% static 'assets/images/photos/photos-2.jpg' %}">
-                    </li>
-
-                    <li class="grid-item grid-item-sm-3">
-                        <img alt="" class="img-responsive center-block" src="{% static 'assets/images/photos/photos-3.jpg' %}">
-                    </li>
-
-                    <li class="grid-item grid-item-sm-3">
-                        <img alt="" class="img-responsive center-block" src="{% static 'assets/images/photos/photos-5.jpg' %}">
-                    </li>
-
-                    <li class="grid-item grid-item-sm-3">
-                        <img alt="" class="img-responsive center-block" src="{% static 'assets/images/photos/photos-6.jpg' %}">
-                    </li>
-
-                    <li class="grid-item grid-item-sm-3">
-                        <img alt="" class="img-responsive center-block" src="{% static 'assets/images/photos/photos-7.jpg' %}">
-                    </li>
-
-                    <li class="grid-item grid-item-sm-3">
-                        <img alt="" class="img-responsive center-block" src="{% static 'assets/images/photos/photos-8.jpg' %}">
-                    </li>
-
-                    <li class="grid-item grid-item-sm-3">
-                        <img alt="" class="img-responsive center-block" src="{% static 'assets/images/photos/photos-2.jpg' %}">
-                    </li>
-
-                    <li class="grid-item grid-item-sm-3">
-                        <img alt="" class="img-responsive center-block" src="{% static 'assets/images/photos/photos-3.jpg' %}">
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
 
 <section id="location" class="section location">
     <div class="container">
@@ -375,11 +401,12 @@
             <div class="col-sm-3">
                 <h3 class="section-title">Contact</h3>
                 <address>
-                    <p>The integreatd and enriched dataset is available upon request. <br>Please contact us. <br> Email: shuai.wang@vu.nl</p>
+                    <p>The integreatd and enriched dataset is available upon request. <br>Please contact Shuai Wang at <a href="mailto:shuai.wang@vu.nl"><u>shuai.wang@vu.nl</u></a> and Manar Attar at <a href="mailto:manarattar77@gmail.com"><u>manarattar77@gmail.com</u></a></p>
                 </address>
             </div>
 
         </div>
     </div>
 </section>
+
 {% endblock %}
