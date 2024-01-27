@@ -7,63 +7,90 @@
 <section id="about" class="section about">
     <div class="container">
 
-                <h3 class="section-title">How to use linked data?</h3>
-
-                <p>Linked data is .........</p>
-                <p>We used linked data is ...linked data is ...linked data is ...linked data is ...linked data is ...linked data is ...linked data is ...linked data is .........</p>
+                <h3 class="section-title">How to use linked data in the resilience of Ukraine?</h3>
 
 
-            <!-- </div><!-- /.col-sm-6 --> -->
+  <h3>Demo</h3>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/E_fr1KzfsVs?si=nXF0NCgMaD9Jcaud" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <!-- <p>Linked data is .........</p> -->
+
+
+
+  <h3>Use Cases</h3>
+
+  <p>The following use cases demonstrate how linked data can be used to help decision making in resilience.</p>
 
             <div class="col-sm-6">
 
-                <h3 >Use case 1</h3>
+                <h3 >Use case 1: Damage Visualisation</h3>
 
                 <figure>
-                    <img alt="" class="img-responsive" src="{% static 'assets/images/about-us.jpg' %}">
+                    <img alt="" class="img-responsive" src="{% static 'assets/images/photos/Kherson2.png' %}">
                 </figure>
 
-                <p>We created ...enriching, refining, linking, visualising, and publishing resources.</p>
+                <p>As a demonstration of the use of our integrated dataset, the figure above showcases the outcome of a SPARQL query that retrieves events in Kherson within the integrated datasets from 1st October 2022 to 28th February 2023, which are then visualized in the map above. By mapping these events, it becomes possible to identify patterns, concentrations, and trends on the map. The visual representation aids researchers and policymakers in gaining valuable insights into the spatial distribution of these events, thus facilitating better understanding and analysis. This use case exemplifies the practical application of integrated datasets and the geographic visualization. </p>
 
 
 
-                <h3>Use case 2</h3>
+                <h3>Use case 2: Public facilities damaged</h3>
 
                 <figure>
-                    <img alt="" class="img-responsive" src="{% static 'assets/images/about-us.jpg' %}">
+                    <img alt="" class="img-responsive" src="{% static 'assets/images/photos/schools.png' %}">
                 </figure>
 
-                <p>We created ...enriching, refining, linking, visualising, and publishing resources.</p>
+                <p>
+We dedicate this use case to showcase the timelapse of damaging events specifically related to schools and hospitals. The figure above presents a visual representation of the dates and the corresponding number of events concerning schools, universities, and hospitals during the period from 1st February 2022 to 30th April 2023. This timelapse provides an overview of the frequency and distribution of damaging events targeting educational and healthcare facilities over the specified timeframe. By observing the patterns and fluctuations depicted in the visualization, we can gain insights into the impact and severity of the conflict on these vital institutions.
+</p>
 
 
-                                <h3>Use case 3</h3>
+                                <h3>Use Case 3: Multilingual representation of labels</h3>
 
                                 <figure>
-                                    <img alt="" class="img-responsive" src="{% static 'assets/images/about-us.jpg' %}">
+                                    <img alt="" class="img-responsive" src="{% static 'assets/images/photos/multi.png' %}">
                                 </figure>
 
-                                <p>We created ...enriching, refining, linking, visualising, and publishing resources.</p>
+                                <p>Incorporating multilingual information in a resilience project utilizing linked data is crucial for effective international collaboration, enhancing usability for many users, and improving interoperability. This holistic approach ensures that potential users of the data can actively participate, comprehend, and contribute to the project, ultimately fostering more resilient and inclusive communities.
+The figure displays multilingual labels for the city of Kupyansk, showcasing the diverse linguistic representation in our data.</p>
 
 
 
-                                                <h3>Use case 4</h3>
+                                                <h3>Use Case 4: Monthly most attacked regions</h3>
 
                                                 <figure>
-                                                    <img alt="" class="img-responsive" src="{% static 'assets/images/about-us.jpg' %}">
+                                                    <img alt="" class="img-responsive" src="{% static 'assets/images/photos/Region-attacks.png' %}">
                                                 </figure>
 
-                                                <p>We created ...enriching, refining, linking, visualising, and publishing resources.</p>
+                                                <p>In this use case, we highlight the three most attacked regions in Ukraine each month. By creating a timeline shown in the figure starting in February 2022 until December 2022, these results provide insights into resilience needs as the findings inform policymakers, researchers, and humanitarian organizations about areas requiring targeted support and intervention. This use case contributes to understanding resilience in Ukraine and guides further research and policy development in conflict resilience.</p>
 
 
 
-                                                                <h3>Use case 5</h3>
+                                                                <h3>Use Case 5: Ratio of children’s death to monthly attacks</h3>
 
                                                                 <figure>
-                                                                    <img alt="" class="img-responsive" src="{% static 'assets/images/about-us.jpg' %}">
+                                                                    <img alt="" class="img-responsive" src="{% static 'assets/images/photos/attacks.png' %}">
                                                                 </figure>
 
-                                                                <p>We created ...enriching, refining, linking, visualising, and publishing resources.</p>
+                                                                <p>In addition to the results derived from the output in our integrated data, we illustrate how other humanitarian open data such as uadata\cite{uadata}could be used to conduct further analysis of other war aspects in Ukraine.
 
+The figure above presents a monthly record of attacks and children's death between April 2022 and December 2022. The first subplot reveals the monthly number of attacks, shedding light on the intensity of the situation. The second subplot highlights the tragic impact, displaying the monthly count of children who lost their lives. The third subplot captures the severity by depicting the ratio of children's deaths to attacks, offering insights into the relative impact on children. This graph serves as a valuable tool for analyzing trends and understanding the gravity of the situation that could provide a reference for humanitarian organizations.</p>
+
+
+
+                                                                <h3>Use Case 6: Identifying location without nearby shelters</h3>
+
+                                                                <figure>
+                                                                    <img alt="" class="img-responsive" src="{% static 'assets/images/photos/kharkiv-attacked.png' %}">
+                                                                </figure>
+
+                                                                <p>
+As a demonstration of the use of our integrated dataset, the figure above presents the result of a SPARQL query that retrieves events in Kharkiv in the integrated datasets.
+We retrieved shelter data in the city of Kharkiv, and measured the distance of events in Kharkiv to the nearest shelter. The figure below is a heatmap that shows the location of damaging events where there is no shelter within 1km distance. Thus, we suggest that shelters could be built to cover these areas.</p>
+
+
+                                                                <figure>
+                                                                    <img alt="" class="img-responsive" src="{% static 'assets/images/photos/kharkiv-heat2.png' %}">
+                                                                </figure>
 
 
 
